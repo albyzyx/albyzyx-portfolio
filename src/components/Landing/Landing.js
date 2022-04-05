@@ -75,6 +75,16 @@ function Landing() {
           style={{ backgroundColor: theme.primary }}
         >
           <div className="lcl--content">
+            <a href={"/"} target="_blank" rel="noreferrer">
+              <img
+                className="landing--social"
+                id="bitmoji"
+                style={{ color: theme.secondary }}
+                aria-label="LinkedIn"
+                src="https://sdk.bitmoji.com/render/panel/20048676-499381053_17-s5-v1.png?transparent=1&palette=1&scale=1"
+              />
+            </a>
+
             {socialsData.linkedIn && (
               <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
                 <FaLinkedin

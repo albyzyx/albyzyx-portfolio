@@ -44,6 +44,12 @@
   
 }
 
+.lcl--content #bitmoji {
+  /* background-color: #eaeaea; */
+  height: 40px;
+  width: 40px;
+}
+
 
 .landing--social {
   font-size: 35px;
